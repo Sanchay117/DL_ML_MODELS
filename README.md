@@ -14,10 +14,4 @@ This repository contains a PyTorch-based model for classifying handwritten digit
 -   **Python 3.x**
 -   **PyTorch**
 -   **Matplotlib** (for visualizing results)
--   **NumPy**
-
-### Install the necessary libraries:
-
-```bash
-pip install -r requirements.txt
-```
+-   **Pandas**
