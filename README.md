@@ -5,13 +5,16 @@ This repository contains a PyTorch-based model for classifying handwritten digit
 ## Directory Structure
 
 -   **MNIST/**: Contains the MNIST dataset, the model implementation, and the trained model weights.
-
     -   **dataset/**: Training and Testing data for the MNIST dataset.
     -   **model.ipynb**: The code.
     -   **model_weights.pth**: The model weights.
     -   **Dataset Link**: [Link](https://www.kaggle.com/datasets/oddrationale/mnist-in-csv/data)
 
--   **Student/** :
+-   **Sign_MNIST/** : Contains the ASL(American Sign Language) MNIST dataset, the model implementation, and the trained model weights.
+    -   **data/**: Training and Testing data for the MNIST dataset.
+    -   **model.ipynb**: The code.
+    -   **model_weights.pth**: The model weights.
+    -   **Dataset Link**: [Link](https://www.kaggle.com/datasets/datamunge/sign-language-mnist)
 
 ## Requirements
 
@@ -19,3 +22,5 @@ This repository contains a PyTorch-based model for classifying handwritten digit
 -   **PyTorch**
 -   **Matplotlib** (for visualizing results)
 -   **Pandas**
+-   **Seaborn**
+-   **Numpy**
